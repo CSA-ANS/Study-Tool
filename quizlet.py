@@ -12,7 +12,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 #####
 Ammaar Siddiqui
 Quizlet Program
-Version 1.0
+Version 1.1
 This is my Quizlet clone
 You can create, edit, test, and review study sets.
 '''
@@ -1441,7 +1441,7 @@ class App():
         explain.geometry("300x150+20+20")
         explain.resizable(width=False, height=False)
         about_label = Label(explain, text=(
-                "This program is a Quizlet clone" + "\n" + "You can make flash card sets" + "\n" + "View and practice them" + "\n" + "And also edit them" + "\n" + "Possible Usage:" + "\n" + "Keep in the corner of your screen when" + "\n" + "taking a test online and cheat"))
+                "This program is a Quizlet clone" + "\n" + "You can make flash card sets with terms and definitions" + "\n" + "View them and test yourself" + "\n" + "And also edit them" + "\n" + "Possible Usage:" + "\n" + "Keep in the corner of your screen when" + "\n" + "taking a test online and cheat"))
         about_label.pack()
         button = Button(explain, text="Close", command=explain.destroy)
         button.pack()  # Creates a top level and assigns a label and button to it
